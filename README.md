@@ -31,7 +31,7 @@ This project runs on Laravel 9 and requires PHP 8.0+ .
 -   Run `php artisan test` to run tests .
 
 ### Deployment
--   This project has been deployed to HEROKU, please click [here](https://documenter.getpostman.com/view/13274153/UyrGAZ6S) to access the deployed link.
+-   This project has been deployed to HEROKU, please click [here](https://laravel-passport-application.herokuapp.com/api/v1) to access the deployed link.
 ### Usage
 -   Please click [here](https://documenter.getpostman.com/view/13274153/UyrGAZ6S) to access the Postman Collection
 

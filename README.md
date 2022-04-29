@@ -30,7 +30,7 @@ This project runs on Laravel 9 and requires PHP 8.0+ .
 -   Run `php artisan test` to run tests .
 
 ### Usage
--   Please click [here](https://documenter.getpostman.com/view/13274153/UVkjwJ77) to access the Postman Collection
+-   Please click [here](https://documenter.getpostman.com/view/13274153/UyrGAZ6S) to access the Postman Collection
 
 This is the basic flow of the application.
 

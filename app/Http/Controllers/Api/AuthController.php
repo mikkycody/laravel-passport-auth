@@ -35,7 +35,7 @@ class AuthController extends Controller
             //rollback to ensure data integrity.
             DB::rollback();
             // Internal server error can be changed to something more meaningful or $e->getMessage() to get the real exception message
-            return $this->response(500, false, 'Internal Server Error');
+            return $this->response(500, false, $e->getMessage());
         }
     }
 

@@ -15,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::prefix('v1')->group(function () {
+    Route::get('/', function () {
+        return response()->json([
+            'message' => 'Welcome to the Laravel Passport Implementation API',
+        ]);
+    });
     Route::prefix('auth')->group(function () {
         Route::controller(AuthController::class)->name('auth.')->group(function () {
             Route::post('login', 'login')->name('login');
